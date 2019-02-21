@@ -1,0 +1,5 @@
+{
+ :server-port 2937
+ :click-saver-url "http://some.mock.saver.service/"
+ :play-store-link "http://play.google.com/store/apps/details?id="
+}

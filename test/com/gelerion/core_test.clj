@@ -1,4 +1,4 @@
-(ns af-trng-wh-ds-520.core-test
+(ns com.gelerion.core-test
   (:require [clojure.test :refer :all]
             [af-trng-wh-ds-520.core :refer :all]))
 

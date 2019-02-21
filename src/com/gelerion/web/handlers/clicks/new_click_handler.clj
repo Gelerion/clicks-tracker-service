@@ -1,7 +1,7 @@
 (ns com.gelerion.web.handlers.clicks.new-click-handler
-  (:require [af-trng-wh-ds-520.web.handlers.clicks.click-validations :refer [valid-click?]]
-            [af-trng-wh-ds-520.config.config :refer [config]]
-            [af-trng-wh-ds-520.states :refer [click-repository-chan]]
+  (:require [com.gelerion.web.handlers.clicks.click-validations :refer [valid-click?]]
+            [com.gelerion.config.config :refer [config]]
+            [com.gelerion.states :refer [click-repository-chan]]
             [taoensso.timbre :as timbre :refer [debug info]]
             [clojure.core.async :refer [>!!]]))
 

@@ -1,8 +1,8 @@
 (ns com.gelerion.repository.clicks-repository
-  (:require [af-trng-wh-ds-520.config.config :refer [config]]
+  (:require [com.gelerion.config.config :refer [config]]
             [taoensso.timbre :as timbre :refer [debug info]]
             [org.httpkit.client :as http]
-            [af-trng-wh-ds-520.states :refer [click-repository-chan]]
+            [com.gelerion.states :refer [click-repository-chan]]
             [clojure.core.async :refer [>!! <!! alts!! chan]]
             [mount.core :refer [defstate]]))
 
